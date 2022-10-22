@@ -1,0 +1,32 @@
+.expenses_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.expenses_actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.expenses_buttons {
+  display: flex;
+  justify-content: center;
+
+  .filters_and_reset {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.expenses_filters {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+}
+
+@import "./FilterExpensesForm.scss";
+// @import "./NoExpenses";
+@import "./ExpenseResults.scss";
+@import "./NewExpenseForm.scss";
+@import "./Settings.scss";
+//import here

@@ -1,0 +1,43 @@
+.create_expense_form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5%;
+
+  .expense_form_left {
+    flex: 60%;
+  }
+
+  .expense_form_right {
+    flex: 40%;
+
+    .receipt_image {
+      display: block;
+      margin: auto;
+      width: 400px;
+      height: 500px;
+      background-color: whitesmoke;
+
+      label {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      h3 {
+        text-align: center;
+      }
+    }
+  }
+
+  .form-control {
+    margin: 5%;
+  }
+}
+
+.bulkcreate_expenses_form {
+  .form-group {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+  }
+}

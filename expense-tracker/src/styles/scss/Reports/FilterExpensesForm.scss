@@ -1,0 +1,21 @@
+.filter_expense_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.filters_row1,
+.checkbox_group,
+.filters_row2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.filters_row2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 92%;
+  align-items: center;
+  padding: 8px;
+}

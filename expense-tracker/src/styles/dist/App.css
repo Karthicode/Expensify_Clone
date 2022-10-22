@@ -1,0 +1,316 @@
+.expenses_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.expenses_actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.expenses_buttons {
+  display: flex;
+  justify-content: center;
+}
+.expenses_buttons .filters_and_reset {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expenses_filters {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+}
+
+.filter_expense_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.filters_row1,
+.checkbox_group,
+.filters_row2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.filters_row2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 92%;
+  align-items: center;
+  padding: 8px;
+}
+
+.expense_results_section {
+  margin-top: 5%;
+}
+
+.expense_card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 2%;
+  border-radius: 20px;
+}
+
+.expense_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.expense_amt_date_actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.expense_amt_date_actions .expense_amt_date > h1 {
+  margin-right: 5%;
+  font-size: 2rem;
+}
+.expense_amt_date_actions .expense_amt_date > h4 {
+  margin-left: 5%;
+}
+.expense_amt_date_actions .expense_actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40%;
+}
+
+.create_expense_form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+.create_expense_form .expense_form_left {
+  flex: 60%;
+}
+.create_expense_form .expense_form_right {
+  flex: 40%;
+}
+.create_expense_form .expense_form_right .receipt_image {
+  display: block;
+  margin: auto;
+  width: 400px;
+  height: 500px;
+  background-color: whitesmoke;
+}
+.create_expense_form .expense_form_right .receipt_image label {
+  display: flex;
+  justify-content: space-evenly;
+}
+.create_expense_form .expense_form_right .receipt_image h3 {
+  text-align: center;
+}
+.create_expense_form .form-control {
+  margin: 5%;
+}
+
+.bulkcreate_expenses_form .form-group {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+
+.settings_form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+.settings_form .user_form_left {
+  flex: 60%;
+}
+.settings_form .user_form_right {
+  flex: 40%;
+}
+.settings_form .user_form_right .receipt_image {
+  display: block;
+  margin: auto;
+  width: 400px;
+  height: 500px;
+  background-color: whitesmoke;
+}
+.settings_form .user_form_right .receipt_image label {
+  display: flex;
+  justify-content: space-evenly;
+}
+.settings_form .user_form_right .receipt_image h3 {
+  text-align: center;
+}
+
+.form-control {
+  margin: 5%;
+}
+
+.bulkcreate_user_form .form-group {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+
+.reports_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.reports_actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.reports_buttons {
+  display: flex;
+  justify-content: center;
+}
+.reports_buttons .filters_and_reset {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reports_filters {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+}
+
+.filter_expense_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.filters_row1,
+.checkbox_group,
+.filters_row2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.filters_row2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  width: 92%;
+  align-items: center;
+  padding: 8px;
+}
+
+.no_reports {
+  margin-top: 10%;
+}
+
+.no_reports_card {
+  width: 70%;
+  padding: 5%;
+  margin: auto;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.report_results_section {
+  margin-top: 5%;
+}
+
+.report_card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 2%;
+  border-radius: 20px;
+}
+
+.report_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.report_amt_date_actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.report_amt_date_actions .report_amt_date > h1 {
+  margin-right: 5%;
+  font-size: 2rem;
+}
+.report_amt_date_actions .report_amt_date > h4 {
+  margin-left: 5%;
+}
+.report_amt_date_actions .report_actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 40%;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: rgb(133, 202, 179);
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: rgb(157, 180, 255);
+}
+
+.bottom-left {
+  padding-top: 100%;
+  left: 0;
+  background-color: aqua;
+}
+
+.bottom-right {
+  padding-top: 100%;
+  right: 0;
+  background-color: aquamarine;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#chartDetails {
+  display: grid;
+}
+
+/*# sourceMappingURL=App.css.map */

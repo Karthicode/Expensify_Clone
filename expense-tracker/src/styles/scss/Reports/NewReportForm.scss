@@ -1,0 +1,17 @@
+.create_report_form {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  padding: 5%;
+  .form-control {
+    margin: 5%;
+  }
+}
+
+.bulkcreate_reports_form {
+  .form-group {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+  }
+}

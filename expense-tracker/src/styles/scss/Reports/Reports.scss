@@ -1,0 +1,29 @@
+.reports_section {
+  display: flex;
+  flex-direction: column;
+}
+
+.reports_actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.reports_buttons {
+  display: flex;
+  justify-content: center;
+
+  .filters_and_reset {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.reports_filters {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+}
+
+@import "./FilterExpensesForm.scss";
+@import "./Noreports";
+@import "./ReportResults.scss";
