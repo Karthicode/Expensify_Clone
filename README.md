@@ -59,12 +59,7 @@ miscellaneous routes:
 ## Domain Model
 
 ![Domain Model Diagram](images/splitwisemodel.png)
-## Developed By
 
-1) Rajat Rao, 002987057
-2) Karthik Ananthnarayan, 002964104
-3) Harshith Narahari, 002963745
-4) Sri Harsha Peri, 002921346
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
